@@ -21,3 +21,5 @@ To count txids in a block use:<br>
 
 To extract txids from a block use:<br>
 `tail -n $[$(cat $DUMP_BLOCK_FILE | grep nTx | grep -Po "\d*")+2] $DUMP_BLOCK_FILE | grep -Po "[a-z0-9]*"`
+
+### This repository is a reupload of the existing repository from the [LINK](https://github.com/SmigloSensei/bitcoin-dump).
